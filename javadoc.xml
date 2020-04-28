@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" author="true" classpath="C:\Users\Jiangshaode\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;target/test-classes;C:\Users\Jiangshaode\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar" destdir="doc" doctitle="util" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="run.simplejava.util.sql" source="11" sourcefiles="src/test/java/run/simplejava/util/AppTest.java" sourcepath="src/test/java;src/main/java" splitindex="true" use="true" version="true"/>
+    </target>
+</project>

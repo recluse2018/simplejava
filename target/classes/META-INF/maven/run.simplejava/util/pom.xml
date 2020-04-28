@@ -36,4 +36,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+     <distributionManagement> 
+         <snapshotRepository>    
+                 <!--和settings中的一致-->   
+               <id>ossrh</id> 
+                <url>https://oss.sonatype.org/content/repositories/snapshots</url> 
+                </snapshotRepository> 
+           <repository>
+            <!--和settings中的一致--> 
+           <id>ossrh</id>
+           <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+           </repository>
+     </distributionManagement> 
+
 </project>
